@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#include "listlib.c"
+#include "listlib.h"
 
 int main(int argc, char *args[])  {
 
