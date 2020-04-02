@@ -25,10 +25,12 @@ int main(int argc, char *args[])  {
 
 	g = getdata(k, &dtg);
 	printf("%d %s\n", g, dtg.string);
+	free(g.string);
 
 
 	g = getdata(k, &dtg);
 	printf("%d %s\n", g, dtg.string);
+	free(g.string);
 
 	freekey(k);
 
