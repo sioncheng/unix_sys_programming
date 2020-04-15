@@ -52,18 +52,18 @@ int makeargv(const char *s, const char *delimiters, char ***argvp) {
 	return num_of_tokens;
 }
 
-int main(int argc, char *argv[]) {
+// int main(int argc, char *argv[]) {
 
-	int n = 0;
-	char **argvp = NULL;
+// 	int n = 0;
+// 	char **argvp = NULL;
 
-	n = makeargv("main -c 100 -d 200", " ", &argvp);
+// 	n = makeargv("main -c 100 -d 200", " ", &argvp);
 
-	fprintf(stdout, "%d\n", n);
+// 	fprintf(stdout, "%d\n", n);
 
-	for (int i = 0; i < n; ++i){
-		printf("%s\n", *(argvp + i));
-	}
+// 	for (int i = 0; i < n; ++i){
+// 		printf("%s\n", *(argvp + i));
+// 	}
 
-	return 0;
-}
+// 	return 0;
+// }
